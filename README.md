@@ -1,4 +1,4 @@
-# Putting It All Together Project on [Name of Research Project]
+# Putting It All Together Project on Poverty and Religious Participation.
 
 # Introduction
 
@@ -6,12 +6,12 @@ Throughout the the term, you will be working to build up an analysis of a specif
 
 ## Research Topic: 
 
-Describe research topic
+Using data from the General Social Survey, we will look at how being poor is related to a person's participation in religious services. Furthermore, we will analyze whether this relationship varies by the number of children the respondent has had.
 
 ### Research questions
 
-1. x related to y
-2. contextual variable
+1. How does living in a family below the poverty line affect a person's frequency of participation in religious services? 
+2. How does the relationship between poverty and religious participation vary by the number of children a person has had?
 
 ## Technical Details
 

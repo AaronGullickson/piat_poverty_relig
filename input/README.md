@@ -1,1 +1,14 @@
 # Data Source Description
+
+The data we will use for this project come from the [General Social Survey](https://gss.norc.org/)(GSS) waves of 2016 and 2018. The GSS is a nationally representative survey of US adults conducted every two years by the National Opinion Research Council. It is a major source of data on political attitudes in the US and is one of the best sources of information on religious affiliation and participation (because the US government cannot collect data on religion). The 2016 and 2018 waves are the most recent and give us a large enough sample of 4,733 respondents to be able to anlayze our question.
+
+From the full GSS data, I have extracted and recoded the following variables for our use as an analytical dataset. To load this dataset in R, you just need to run the setup code chunk in the full_report.Rmd R Markdown document. The name of the dataset in R is `gss`. 
+
+* **attend_cat**: This variable measures the frequency of a respondent's attendance at "religious services." Note that the use of hte term "religious services" is intended to make this question generic to all religions, but different religions may have different expectations about the frequency of attendance at religious services. The categories are never, less than once a year, once a year, several times a year, once a month, 2-3 times a month, nearly every week, every week, and more than once a week.
+* **attend_score**: Because we need a quantitative variable for the full model, we will convert the attendance categories into a score from 0-8 based on the response given by the respondent. Respondents who reported "never"" are scored as 0 and each increase on the ordinal scale increases the score by one. such that those who reported "more than once a week" are scored as 8.
+* **poverty**: Is the respondent's family income below the poverty line threshold? This is determined by three factors. First I look at the number of people in the respondent's family. I then use the [poverty thresholds for 2017](https://aspe.hhs.gov/2017-poverty-guidelines) published by the US Department of Health and Human Services, which requires the number of people in the household. I then compare this to the high end of the family income bracket that the respondent reported. Because we only have income reported in brackets, the method will not be exact but should give results that are very close to the official poverty line.
+* **gender**: The gender of the respondent. This is only reported in the binary categories of Male and Female.
+* **age**: The age of the respondent.
+* **region**: region of the US. This is reported in four categories of Northeast, Midwest, South, and West.
+* **emp_status**: The employment status of the respondent.
+* **num_child**: The number of children ever born to the respondent.
