@@ -4,7 +4,7 @@
 
 Throughout the the term, you will be working to build up an analysis of a specific research question, detailed below. You will complete several Putting It All Together assignments that ask you to analyze a dataset using the specific tools you have learned. For each assignment, you will report your results in a brief report. The ultimate goal of this set of assignments is a final complete research report on your specific research question. 
 
-## Research Topic: 
+## Research Topic: Poverty and Religious Participation
 
 Using data from the General Social Survey, we will look at how being poor is related to a person's participation in religious services. Furthermore, we will analyze whether this relationship varies by the number of children the respondent has had.
 
