@@ -10,8 +10,8 @@ Using data from the General Social Survey, we will look at how being poor is rel
 
 ### Research questions
 
-1. How does living in a family below the poverty line affect a person's frequency of participation in religious services? 
-2. How does the relationship between poverty and religious participation vary by the number of children a person has had?
+1. How does **living in a family below the poverty line** affect a **person's frequency of participation in religious services**? 
+2. How does the relationship between poverty and religious participation vary by the **number of children a person has had**?
 
 ## Technical Details
 
